@@ -95,6 +95,10 @@ body {
   padding: 12px 4px;
   border-bottom: 1px solid #e2e8f0;
 }
+.task.completed .task__text {
+  text-decoration: line-through;
+  color: #94a3b8;
+}
 
 .task__text {
   flex: 1;
